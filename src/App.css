@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main_color: #ee238a;
+    --sec_color: #922790;
+    --text_color: #000000;
+    --bg_color: #ffffff;
+    --sec_bg_color: #12498e;
+    --bg_linear_gra: linear-gradient(90deg, #ee238a 0%, #922790 100%);
+}
+/* .container img {
+    width: 100%;
+} */
+body {
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+a:hover {
+    color: var(--sec_color) !important;
+}
+input:focus-visible {
+    outline: none;
+}
